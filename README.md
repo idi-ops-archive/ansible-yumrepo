@@ -3,6 +3,8 @@ yumrepo Ansible role
 
 Configures yum repositories.
 
+Rationale: This role fits a workflow where group_vars/host_vars is used heavily to specify variables, instead of adding them to individual playbooks. In the latter case, the yumrepo module could be used directly. This role is simply sugar-coating to keep playbooks as small as possible and all data contained in group_vars/host_vars.
+
 Requirements
 ------------
 
