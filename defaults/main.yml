@@ -1,0 +1,24 @@
+---
+
+yumrepo_repositories: []
+#
+#  - name: CentOS-$releasever - Base
+#    file: centos.repo
+#    baseurl: http://mirror.netflash.net/centos/$releasever/os/$basearch/
+#    enabled: yes
+#    gpgcheck: yes
+#    gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
+#
+#  - name: CentOS-$releasever - Updates
+#    file: centos-updates.repo
+#    baseurl: http://mirror.netflash.net/centos/$releasever/updates/$basearch/
+#    enabled: yes
+#    gpgcheck: yes
+#    gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
+#
+#  - name: CentOS-$releasever - Extras
+#    file: centos-extras.repo
+#    baseurl: http://mirror.netflash.net/centos/$releasever/extras/$basearch/
+#    enabled: yes
+#    gpgcheck: yes
+#    gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
